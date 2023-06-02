@@ -1,0 +1,37 @@
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+li:last-child{
+    float: right;
+}
+
+.sicon{
+    /* border: 1px solid white; */
+    border-radius: 20px 0 0 20px;
+    background:#101434;
+    border-right: none;
+    height: 30px;
+}
+.sbox{
+    /* border: 1px solid white; */
+    background:#101434;
+    border-left: none;
+    height: 30px;
+    font-size: 14px;
+}
+.mylink-1::before{
+    content: '/ ';
+}
+.mydiv-2{
+    display: inline;
+}
+.wlcm{
+  border-radius: 10px;
+  background-image: url(../img/dash_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
